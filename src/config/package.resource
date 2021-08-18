@@ -9,6 +9,7 @@ Resource    setup.robot
 Resource    ../auto/keywords/home_kws.robot
 Resource    ../auto/keywords/login_kws.robot
 Resource    ../auto/keywords/minhaconta_kws.robot
+Resource    ../auto/keywords/common_kws.robot
 
 # Elementos
 Resource   ../auto/elements/home_ets.resource

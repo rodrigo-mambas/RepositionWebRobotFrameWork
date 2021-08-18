@@ -1,4 +1,8 @@
+*.png
+*.html
+*.xml
 ./er
+./test/result
 ./test/result/log.html
 ./test/result/output.xml
 ./test/result/report.html

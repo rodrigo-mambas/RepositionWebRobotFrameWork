@@ -4,8 +4,11 @@ Documentation       Keywords relacionados a tela home.
 Resource            ../../config/package.resource
 
 *** Keywords ***
-Quando realizar login com sucesso
+Quando inserir os dados de login
+    [Arguments]     ${EMAIL}        ${SENHA}
     Wait Until Element Is Visible   ${LOGIN.INPUT_EMAIL}
-    Input Text      ${LOGIN.INPUT_EMAIL}        ${DADOSACESSO.LOGIN}
-    Input Text      ${LOGIN.INPUT_SENHA}        ${DADOSACESSO.SENHA}
-    Click Element       ${LOGIN.BOTAO_SIGNIN}
+    Input Text      ${LOGIN.INPUT_EMAIL}        ${EMAIL}
+    Input Text      ${LOGIN.INPUT_SENHA}        ${SENHA}
+  
+
+
