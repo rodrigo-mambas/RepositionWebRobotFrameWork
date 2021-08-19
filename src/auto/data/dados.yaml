@@ -1,0 +1,14 @@
+MASSA_DADOS:
+  LOGIN:
+    EMAIL: rasafa9934@ovooovo.com
+    SENHA: Teste@123
+
+MASSA_CADASTRO:
+  EMAIL: aa@aa.com.br  
+  NOME: teste
+  SOBRENOME: teste sobrenome
+  SENHA: Teste@4321
+  NOME_END: teste rua
+  SOBRENOME_END: sobrenome rua
+  ENDERECO1: rua 1, 145
+  ENDERECO2: complemento

@@ -1,0 +1,5 @@
+MENSAGENS:
+  LOGIN:
+    AUTHENTICATION_FAILED: Authentication failed.
+  CADASTRO:
+    TELA_CADASTRO: Create an account
