@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       Keywords relacionados a tela home.
+Documentation       Keywords relacionados a tela home. teste git.
 
 Resource            ../../config/package.resource
 
