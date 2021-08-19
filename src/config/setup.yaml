@@ -1,4 +1,5 @@
 CONFIG:
   URL: http://automationpractice.com/index.php
-  NAVEGADOR: headlesschrome
+  #NAVEGADOR: headlesschrome
+  NAVEGADOR: chrome
   TIMEOUT: 60
