@@ -10,5 +10,5 @@ MASSA_CADASTRO:
   SENHA: Teste@4321
   NOME_END: teste rua
   SOBRENOME_END: sobrenome rua
-  ENDERECO1: rua 1, 145
+  ENDERECO1: Street address
   ENDERECO2: complemento

@@ -20,5 +20,10 @@ Quando inserir os dados de cadastro
     Input Text      ${DADOSCADASTRO.INPUT_ENDERECO_1}        ${ENDERECO1}
     Input Text      ${DADOSCADASTRO.INPUT_ENDERECO_2}        ${ENDERECO2}
 
-   
-
+E acessar a tela de cadastro
+    Wait Until Element Is Visible   ${DADOSCADASTRO.INPUT_EMAIL}
+    # para debugar o fonte
+    # Debug
+    ${NOVO_EMAIL}       FakerLibrary.Email
+    Input Text      ${DADOSCADASTRO.INPUT_EMAIL}       ${NOVO_EMAIL}   
+    Click Element   ${DADOSCADASTRO.BOTAO_CREATE}

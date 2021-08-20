@@ -3,6 +3,8 @@ Documentation   Dependências do projeto
 
 # Dependencias
 Library     SeleniumLibrary
+Library     FakerLibrary            locale=pt_BR
+Library     DebugLibrary
 
 # Keywords
 Resource    setup.robot
