@@ -69,6 +69,6 @@ Cenario: Validar cadastro com sucesso
     E acessar a tela de Login
     E acessar a tela de cadastro
     E preencher o formulario com dados válidos
-    Quando clicar no botao      ${CADASTRO.BOTAO_REGISTER}
+    Quando clicar no elemento      ${CADASTRO.BOTAO_REGISTER}
     Então deve visualizae a tela My Account
 
