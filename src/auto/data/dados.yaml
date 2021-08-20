@@ -3,8 +3,8 @@ MASSA_DADOS:
     EMAIL: rasafa9934@ovooovo.com
     SENHA: Teste@123
 
-MASSA_CADASTRO:
-  EMAIL: aa@aa.com.br  
+MASSA_CADASTRO1:
+  EMAIL: cc@aa.com.br  
   NOME: teste
   SOBRENOME: teste sobrenome
   SENHA: Teste@4321
@@ -12,3 +12,7 @@ MASSA_CADASTRO:
   SOBRENOME_END: sobrenome rua
   ENDERECO1: Street address
   ENDERECO2: complemento
+  CIDADE: sao paulo
+  CEP: 055555
+  CELULAR: +5511123456789
+  ALIAS: teste

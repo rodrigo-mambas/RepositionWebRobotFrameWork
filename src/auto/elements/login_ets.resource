@@ -21,4 +21,11 @@
 ...     INPUT_SOBRENOME_END=//input[@id='lastname'] 
 ...     INPUT_ENDERECO_1=//input[@id='address1'] 
 ...     INPUT_ENDERECO_2=//input[@id='address2'] 
+...     INPUT_CIDADE=//input[@id='city'] 
+...     INPUT_CEP=//input[@id='postcode'] 
+...     INPUT_CELULAR=//input[@id='phone_mobile']
+...     INPUT_ALIAS=//input[@id='alias']
+...     INPUT_AS=//input[@type='radio' and @name='id_gender' and @id='id_gender1']
+...     BOTAO_REGISTER=submitAccount
+...     TEXTO_ERRO=//div[@class='alert alert-danger']/child::ol/child::li
 

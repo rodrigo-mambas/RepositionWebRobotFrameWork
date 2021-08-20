@@ -40,19 +40,5 @@ Cenario: Login com credenciais invalidos
     E clicar no elemento     ${LOGIN.BOTAO_SIGNIN}
     Então deve visualizar a mensagem        ${LOGIN.TEXTO_ERRO}      ${MENSAGENS.LOGIN.AUTHENTICATION_FAILED}
 
-Cenario: Cadastro novo usuario
-    [Tags]      CADASTRO    POSITIVO
-    Dado que o cliente esteja na tela inicial da aplicação
-    E clicar no elemento     ${HOME.BOTAO_SIGNIN}
-    Quando inserir o email de cadastro      EMAIL=${MASSA_CADASTRO.EMAIL}
-    E clicar no elemento     ${DADOSCADASTRO.BOTAO_CREATE}
-    # Então deve visualizar a mensagem        ${DADOSCADASTRO.TITULO}      ${MENSAGENS.CADASTRO.TELA_CADASTRO}
-    Quando inserir os dados de cadastro       
-...     NOME=${MASSA_CADASTRO.NOME}      
-...     SOBRENOME=${MASSA_CADASTRO.SOBRENOME}       
-...     SENHA=${MASSA_CADASTRO.SENHA}       
-...     NOME_END=${MASSA_CADASTRO.NOME_END}        
-...     SOBRENOME_END=${MASSA_CADASTRO.SOBRENOME_END}       
-...     ENDERECO1=${MASSA_CADASTRO.ENDERECO1}       
-...     ENDERECO2=${MASSA_CADASTRO.ENDERECO2}
+
 

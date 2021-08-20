@@ -1,0 +1,21 @@
+*** Variables ***
+&{CADASTRO}
+...     INPUT_NOME=//input[@id='customer_firstname']
+...     INPUT_SOBRENOME=//input[@id='customer_lastname']
+...     INPUT_SENHA=//input[@id='passwd'] 
+...     INPUT_NOME_END=//input[@id='firstname'] 
+...     INPUT_SOBRENOME_END=//input[@id='lastname'] 
+...     INPUT_ENDERECO_1=//input[@id='address1'] 
+...     INPUT_ENDERECO_2=//input[@id='address2'] 
+...     INPUT_CIDADE=//input[@id='city'] 
+...     INPUT_CEP=//input[@id='postcode'] 
+...     INPUT_CELULAR=//input[@id='phone_mobile']
+...     INPUT_ALIAS=//input[@id='alias']
+...     RADIO_MR=//input[@id='id_gender1']
+...     RADIO_MRS=//input[@id='id_gender2']
+...     BOTAO_REGISTER=submitAccount
+...     SELECT_DIA=//select[@id='days']
+...     SELECT_MES=//select[@id='months']
+...     SELECT_ANO=//select[@id='years']
+...     SELECT_ESTADO=//select[@id='id_state']
+...     BOTAO_REGISTER=submitAccount

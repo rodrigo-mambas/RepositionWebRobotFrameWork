@@ -2,4 +2,4 @@ MENSAGENS:
   LOGIN:
     AUTHENTICATION_FAILED: Authentication failed.
   CADASTRO:
-    TELA_CADASTRO: Create an account
+    TELA_CADASTRO: An account using this email address has already been registered. Please enter a valid password or request a new one. 
